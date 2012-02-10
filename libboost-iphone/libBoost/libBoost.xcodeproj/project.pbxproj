@@ -1,0 +1,242 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAE67E4C14E5125D00DB1034 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE67E4B14E5125D00DB1034 /* Foundation.framework */; };
+		CAE67E5E14E5135300DB1034 /* boost in Headers */ = {isa = PBXBuildFile; fileRef = CAE67E5D14E512C700DB1034 /* boost */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CAE67E4814E5125D00DB1034 /* libBoost.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBoost.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE67E4B14E5125D00DB1034 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CAE67E4F14E5125D00DB1034 /* libBoost-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "libBoost-Prefix.pch"; sourceTree = "<group>"; };
+		CAE67E5D14E512C700DB1034 /* boost */ = {isa = PBXFileReference; lastKnownFileType = folder; name = boost; path = ../../../boost; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAE67E4514E5125D00DB1034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE67E4C14E5125D00DB1034 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAE67E3D14E5125D00DB1034 = {
+			isa = PBXGroup;
+			children = (
+				CAE67E4D14E5125D00DB1034 /* libBoost */,
+				CAE67E4A14E5125D00DB1034 /* Frameworks */,
+				CAE67E4914E5125D00DB1034 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAE67E4914E5125D00DB1034 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAE67E4814E5125D00DB1034 /* libBoost.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAE67E4A14E5125D00DB1034 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAE67E4B14E5125D00DB1034 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAE67E4D14E5125D00DB1034 /* libBoost */ = {
+			isa = PBXGroup;
+			children = (
+				CAE67E5C14E512B400DB1034 /* include */,
+				CAE67E4E14E5125D00DB1034 /* Supporting Files */,
+			);
+			path = libBoost;
+			sourceTree = "<group>";
+		};
+		CAE67E4E14E5125D00DB1034 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAE67E4F14E5125D00DB1034 /* libBoost-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAE67E5C14E512B400DB1034 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				CAE67E5D14E512C700DB1034 /* boost */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CAE67E4614E5125D00DB1034 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE67E5E14E5135300DB1034 /* boost in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CAE67E4714E5125D00DB1034 /* libBoost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAE67E5514E5125E00DB1034 /* Build configuration list for PBXNativeTarget "libBoost" */;
+			buildPhases = (
+				CAE67E4414E5125D00DB1034 /* Sources */,
+				CAE67E4514E5125D00DB1034 /* Frameworks */,
+				CAE67E4614E5125D00DB1034 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libBoost;
+			productName = libBoost;
+			productReference = CAE67E4814E5125D00DB1034 /* libBoost.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAE67E3F14E5125D00DB1034 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CAE67E4214E5125D00DB1034 /* Build configuration list for PBXProject "libBoost" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CAE67E3D14E5125D00DB1034;
+			productRefGroup = CAE67E4914E5125D00DB1034 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAE67E4714E5125D00DB1034 /* libBoost */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAE67E4414E5125D00DB1034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CAE67E5314E5125E00DB1034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CAE67E5414E5125E00DB1034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAE67E5614E5125E00DB1034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/libBoost.dst;
+				EXECUTABLE_PREFIX = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libBoost/libBoost-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CAE67E5714E5125E00DB1034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/libBoost.dst;
+				EXECUTABLE_PREFIX = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libBoost/libBoost-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAE67E4214E5125D00DB1034 /* Build configuration list for PBXProject "libBoost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE67E5314E5125E00DB1034 /* Debug */,
+				CAE67E5414E5125E00DB1034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAE67E5514E5125E00DB1034 /* Build configuration list for PBXNativeTarget "libBoost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE67E5614E5125E00DB1034 /* Debug */,
+				CAE67E5714E5125E00DB1034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAE67E3F14E5125D00DB1034 /* Project object */;
+}
