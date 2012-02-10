@@ -326,11 +326,16 @@ BOOST_BGL_DECLARE_NAMED_PARAMS
   // Declare all new tags
   namespace graph {
     namespace keywords {
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wunused-variable"
+
 #define BOOST_BGL_ONE_PARAM_REF(name, key) BOOST_PARAMETER_NAME(name)
 #define BOOST_BGL_ONE_PARAM_CREF(name, key) BOOST_PARAMETER_NAME(name)
       BOOST_BGL_DECLARE_NAMED_PARAMS
 #undef BOOST_BGL_ONE_PARAM_REF
 #undef BOOST_BGL_ONE_PARAM_CREF
+        
+#pragma GCC diagnostic pop
     }
   }
 
